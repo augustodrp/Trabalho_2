@@ -15,17 +15,11 @@ import java.util.Scanner;
  */
 public class Shape {
     public static void main(String[] args) {
-//        TESTE SPLIT (LER MAIS DE UMA STRING OU NUMERO NUMA MESMA LINHA)
-//        String input = "1 fish 25 fish red fish blue fish";
-//        String[] str = input.split(" ");
-//        System.out.println(str[6]);  //MOSTRARÁ FISH
         
         Scanner entrada = new Scanner(System.in);
         int contErros = 0;
         
         String lerComando;  
-        
-//        String isExit = null;
         
         String [] comando;// = null;
         
